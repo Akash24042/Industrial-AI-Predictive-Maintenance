@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>PredictX | Predictive Maintenance</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="app">
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+
+            <div class="logo">
+                <div class="logo-icon">P</div>
+
+                <div>
+                    <h2>PredictX</h2>
+                    <span>Industrial Intelligence</span>
+                </div>
+            </div>
+
+            <nav class="navigation">
+
+                <a href="#" class="nav-item active">
+                    <span>▦</span>
+                    Dashboard
+                </a>
+
+                <a href="#" class="nav-item">
+                    <span>⚙</span>
+                    Machines
+                </a>
+
+                <a href="#" class="nav-item">
+                    <span>◉</span>
+                    Predictions
+                </a>
+
+                <a href="#" class="nav-item">
+                    <span>▣</span>
+                    Maintenance
+                </a>
+
+            </nav>
+
+            <div class="sidebar-bottom">
+
+                <div class="system-status">
+                    <span class="status-dot"></span>
+
+                    <div>
+                        <strong>System Online</strong>
+                        <small>AI engine active</small>
+                    </div>
+                </div>
+
+                <div class="user-profile">
+                    <div class="avatar">A</div>
+
+                    <div>
+                        <strong>Admin User</strong>
+                        <small>Plant Manager</small>
+                    </div>
+                </div>
+
+            </div>
+
+        </aside>
+
+
+        <!-- Main Content -->
+        <main class="main-content">
+
+            <!-- Header -->
+            <header class="topbar">
+
+                <div>
+                    <p class="breadcrumb">Operations / Overview</p>
+
+                    <h1>Predictive Maintenance Dashboard</h1>
+
+                    <p class="subtitle">
+                        Monitor machine health and prevent unexpected failures.
+                    </p>
+                </div>
+
+                <div class="header-actions">
+
+                    <button class="icon-button">⌕</button>
+
+                    <button class="icon-button notification">
+                        ♧
+                        <span></span>
+                    </button>
+
+                    <div class="date">
+                        <small>Today</small>
+                        <strong>July 25, 2026</strong>
+                    </div>
+
+                </div>
+
+            </header>
+
+
+            <!-- Statistics -->
+            <section class="stats-grid">
+
+                <div class="stat-card">
+
+                    <div class="stat-top">
+                        <span>Total Machines</span>
+                        <div class="stat-icon blue">▦</div>
+                    </div>
+
+                    <h2>12</h2>
+
+                    <p class="positive">
+                        ↑ 8.2% <span>from last month</span>
+                    </p>
+
+                </div>
+
+
+                <div class="stat-card">
+
+                    <div class="stat-top">
+                        <span>Healthy</span>
+                        <div class="stat-icon green">✓</div>
+                    </div>
+
+                    <h2>8</h2>
+
+                    <p class="positive">
+                        66.7% <span>of total machines</span>
+                    </p>
+
+                </div>
+
+
+                <div class="stat-card">
+
+                    <div class="stat-top">
+                        <span>Needs Attention</span>
+                        <div class="stat-icon yellow">!</div>
+                    </div>
+
+                    <h2>3</h2>
+
+                    <p class="warning-text">
+                        Requires monitoring
+                    </p>
+
+                </div>
+
+
+                <div class="stat-card">
+
+                    <div class="stat-top">
+                        <span>Critical Risk</span>
+                        <div class="stat-icon red">⚠</div>
+                    </div>
+
+                    <h2>1</h2>
+
+                    <p class="danger-text">
+                        Immediate action required
+                    </p>
+
+                </div>
+
+            </section>
+
+
+            <!-- Main Grid -->
+            <section class="dashboard-grid">
+
+
+                <!-- Machine Health -->
+                <div class="panel machine-panel">
+
+                    <div class="panel-header">
+
+                        <div>
+                            <h2>Machine Health Overview</h2>
+
+                            <p>
+                                Real-time status of monitored equipment
+                            </p>
+                        </div>
+
+                        <button class="view-button">
+                            View All →
+                        </button>
+
+                    </div>
+
+
+                    <div class="machine-list">
+
+                        <div class="machine-row">
+
+                            <div class="machine-info">
+
+                                <div class="machine-icon">
+                                    ⚙
+                                </div>
+
+                                <div>
+                                    <strong>MOTOR-001</strong>
+                                    <small>Production Line A</small>
+                                </div>
+
+                            </div>
+
+                            <div class="machine-status healthy">
+                                <span></span>
+                                Healthy
+                            </div>
+
+                            <div class="machine-reading">
+                                42°C
+                                <small>Temperature</small>
+                            </div>
+
+                        </div>
+
+
+                        <div class="machine-row">
+
+                            <div class="machine-info">
+
+                                <div class="machine-icon">
+                                    ⚙
+                                </div>
+
+                                <div>
+                                    <strong>PUMP-002</strong>
+                                    <small>Water Processing</small>
+                                </div>
+
+                            </div>
+
+                            <div class="machine-status warning">
+                                <span></span>
+                                Warning
+                            </div>
+
+                            <div class="machine-reading">
+                                68°C
+                                <small>Temperature</small>
+                            </div>
+
+                        </div>
+
+
+                        <div class="machine-row">
+
+                            <div class="machine-info">
+
+                                <div class="machine-icon">
+                                    ⚙
+                                </div>
+
+                                <div>
+                                    <strong>COMPRESSOR-003</strong>
+                                    <small>Production Line B</small>
+                                </div>
+
+                            </div>
+
+                            <div class="machine-status critical">
+                                <span></span>
+                                Critical
+                            </div>
+
+                            <div class="machine-reading">
+                                91°C
+                                <small>Temperature</small>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- AI Prediction -->
+                <div class="panel prediction-panel">
+
+                    <div class="panel-header">
+
+                        <div>
+                            <h2>AI Failure Prediction</h2>
+
+                            <p>
+                                Analyze machine sensor data
+                            </p>
+                        </div>
+
+                        <div class="ai-badge">
+                            AI MODEL
+                        </div>
+
+                    </div>
+
+
+                    <form id="predictionForm">
+
+                        <div class="form-grid">
+
+                            <div class="input-group">
+
+                                <label>
+                                    Temperature (°C)
+                                </label>
+
+                                <input
+                                    type="number"
+                                    id="temperature"
+                                    placeholder="e.g. 85"
+                                    required
+                                >
+
+                            </div>
+
+
+                            <div class="input-group">
+
+                                <label>
+                                    Vibration (mm/s)
+                                </label>
+
+                                <input
+                                    type="number"
+                                    step="0.1"
+                                    id="vibration"
+                                    placeholder="e.g. 7.8"
+                                    required
+                                >
+
+                            </div>
+
+
+                            <div class="input-group">
+
+                                <label>
+                                    Pressure (PSI)
+                                </label>
+
+                                <input
+                                    type="number"
+                                    id="pressure"
+                                    placeholder="e.g. 92"
+                                    required
+                                >
+
+                            </div>
+
+
+                            <div class="input-group">
+
+                                <label>
+                                    RPM
+                                </label>
+
+                                <input
+                                    type="number"
+                                    id="rpm"
+                                    placeholder="e.g. 1380"
+                                    required
+                                >
+
+                            </div>
+
+
+                            <div class="input-group full-width">
+
+                                <label>
+                                    Operating Hours
+                                </label>
+
+                                <input
+                                    type="number"
+                                    id="operating_hours"
+                                    placeholder="e.g. 7500"
+                                    required
+                                >
+
+                            </div>
+
+                        </div>
+
+
+                        <button
+                            type="submit"
+                            class="predict-button"
+                        >
+
+                            <span>✦</span>
+
+                            Analyze Machine Health
+
+                        </button>
+
+                    </form>
+
+
+                    <!-- Prediction Result -->
+
+                    <div
+                        id="result"
+                        class="prediction-result hidden"
+                    >
+
+                        <div class="result-header">
+
+                            <div>
+
+                                <small>AI PREDICTION</small>
+
+                                <h3 id="riskLevel">
+                                    --
+                                </h3>
+
+                            </div>
+
+                            <div class="risk-score">
+
+                                <strong id="probability">
+                                    0%
+                                </strong>
+
+                                <small>
+                                    Failure Risk
+                                </small>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="progress-container">
+
+                            <div
+                                id="progressBar"
+                                class="progress-bar"
+                            ></div>
+
+                        </div>
+
+
+                        <div class="recommendation">
+
+                            <strong>
+                                Recommended Action
+                            </strong>
+
+                            <p id="recommendationText">
+                                --
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- Bottom Section -->
+            <section class="bottom-grid">
+
+
+                <div class="panel">
+
+                    <div class="panel-header">
+
+                        <div>
+
+                            <h2>Machine Risk Distribution</h2>
+
+                            <p>
+                                Current health status across all equipment
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="risk-chart">
+
+                        <div class="chart-circle">
+
+                            <div>
+
+                                <strong>
+                                    12
+                                </strong>
+
+                                <span>
+                                    Machines
+                                </span>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="legend">
+
+                            <div>
+                                <span class="legend-dot green"></span>
+                                Healthy
+                                <strong>8</strong>
+                            </div>
+
+                            <div>
+                                <span class="legend-dot yellow"></span>
+                                Warning
+                                <strong>3</strong>
+                            </div>
+
+                            <div>
+                                <span class="legend-dot red"></span>
+                                Critical
+                                <strong>1</strong>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="panel">
+
+                    <div class="panel-header">
+
+                        <div>
+
+                            <h2>Recent Activity</h2>
+
+                            <p>
+                                Latest system events
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="activity-list">
+
+                        <div class="activity-item">
+
+                            <span class="activity-icon warning">
+                                !
+                            </span>
+
+                            <div>
+
+                                <strong>
+                                    PUMP-002 requires attention
+                                </strong>
+
+                                <small>
+                                    12 minutes ago
+                                </small>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="activity-item">
+
+                            <span class="activity-icon success">
+                                ✓
+                            </span>
+
+                            <div>
+
+                                <strong>
+                                    MOTOR-001 maintenance completed
+                                </strong>
+
+                                <small>
+                                    1 hour ago
+                                </small>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="activity-item">
+
+                            <span class="activity-icon ai">
+                                ✦
+                            </span>
+
+                            <div>
+
+                                <strong>
+                                    AI model analyzed 24 readings
+                                </strong>
+
+                                <small>
+                                    2 hours ago
+                                </small>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+        </main>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
